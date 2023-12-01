@@ -1,0 +1,653 @@
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>blade deploy
+Downloading https://services.gradle.org/distributions/gradle-7.3.3-bin.zip
+...........10%...........20%...........30%...........40%...........50%...........60%...........70%...........80%...........90%...........100%
+
+Welcome to Gradle 7.3.3!
+
+Here are the highlights of this release:
+ - Easily declare new test suites in Java projects
+ - Support for Java 17
+ - Support for Scala 3
+
+For more details see https://docs.gradle.org/7.3.3/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+> Task :downloadNode1 FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':downloadNode1'.
+> Could not copy zip entry C:\Users\Liferay\.liferay\mirrors\nodejs.org\dist\v16.13.0\node-v16.13.0-win-x64.zip!node-v16.13.0-win-x64/node.exe to 'D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\build\node\node.exe'.
+   > java.io.IOException: There is not enough space on the disk
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 2m 44s
+1 actionable task: 1 executed
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>blade deploy
+
+> Task :downloadNode1
+Trying to download http://mirrors.lax.liferay.com/registry.npmjs.org/npm/-/npm-8.1.0.tgz to C:\Users\Liferay\.liferay\mirrors\registry.npmjs.org\npm\-\npm-8.1.0.tgz.tmp
+Trying to download https://registry.npmjs.org/npm/-/npm-8.1.0.tgz to C:\Users\Liferay\.liferay\mirrors\registry.npmjs.org\npm\-\npm-8.1.0.tgz.tmp
+
+> Task :downloadNode
+Trying to download http://mirrors.lax.liferay.com/nodejs.org/dist/v16.15.1/node-v16.15.1-win-x64.zip to C:\Users\Liferay\.liferay\mirrors\nodejs.org\dist\v16.15.1\node-v16.15.1-win-x64.zip.tmp
+Trying to download http://nodejs.org/dist/v16.15.1/node-v16.15.1-win-x64.zip to C:\Users\Liferay\.liferay\mirrors\nodejs.org\dist\v16.15.1\node-v16.15.1-win-x64.zip.tmp
+
+> Task :yarnInstall
+yarn install v1.13.0
+info No lockfile found.
+warning Missing version in workspace at "D:\\Reusable\\Learning Material\\cx\\com.liferay.sample.workspace-latest\\client-extensions\\liferay-sample-etc-frontend-3", ignoring.
+[1/4] Resolving packages...
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > webpack-dev-middleware > memfs@3.6.0: this will be v4
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > webpack-dev-server > webpack-dev-middleware > memfs@3.6.0: this will be v4
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > react-dev-utils > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > guess-parser > @wessberg/ts-evaluator@0.0.27: this package has been renamed to ts-evaluator. Please install ts-evaluator instead
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-background-sync@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-broadcast-update@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-cacheable-response@6.6.1: workbox-background-sync@6.6.1
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-background-sync > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-broadcast-update > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-cacheable-response > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-expiration@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-expiration > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-navigation-preload@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-navigation-preload > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-background-sync@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-range-requests@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-range-requests > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-strategies > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-routing > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-cacheable-response@6.6.1: workbox-background-sync@6.6.1
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-expiration@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-precaching@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-window@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-window > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-sw@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > css-minimizer-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > @rollup/plugin-replace > magic-string > sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+warning workspace-aggregator-4b9cf3bb-5c85-4c0d-9843-e724e57e7140 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > guess-parser > @wessberg/ts-evaluator > jsdom > w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+[2/4] Fetching packages...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+info There appears to be trouble with your network connection. Retrying...
+error An unexpected error occurred: "https://registry.yarnpkg.com/rxjs/-/rxjs-7.8.1.tgz: ESOCKETTIMEDOUT".
+info If you think this is a bug, please open a bug report with the information provided in "D:\\Reusable\\Learning Material\\cx\\com.liferay.sample.workspace-latest\\yarn-error.log".
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+
+> Task :yarnInstall FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':yarnInstall'.
+> Process 'command 'cmd'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 11m 12s
+4 actionable tasks: 4 executed
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>blade deploy
+
+> Task :yarnInstall
+yarn install v1.13.0
+info No lockfile found.
+warning Missing version in workspace at "D:\\Reusable\\Learning Material\\cx\\com.liferay.sample.workspace-latest\\client-extensions\\liferay-sample-etc-frontend-3", ignoring.
+[1/4] Resolving packages...
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > webpack-dev-middleware > memfs@3.6.0: this will be v4
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > webpack-dev-server > webpack-dev-middleware > memfs@3.6.0: this will be v4
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > react-dev-utils > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > guess-parser > @wessberg/ts-evaluator@0.0.27: this package has been renamed to ts-evaluator. Please install ts-evaluator instead
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-broadcast-update@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-background-sync@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-cacheable-response@6.6.1: workbox-background-sync@6.6.1
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-broadcast-update > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-background-sync > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-cacheable-response > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-cacheable-response@6.6.1: workbox-background-sync@6.6.1
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-expiration@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-expiration@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-expiration > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-navigation-preload@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-navigation-preload > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-precaching@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-routing > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-background-sync@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-strategies > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-range-requests@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-range-requests > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-sw@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-window@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-window > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > css-minimizer-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > @rollup/plugin-replace > magic-string > sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+<==-----------> 22% EXECUTING [2m 5s]
+warning workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > guess-parser > @wessberg/ts-evaluator > jsdom > w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+[2/4] Fetching packages...
+info fsevents@2.3.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.3.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info nice-napi@1.0.2: The platform "win32" is incompatible with this module.
+info "nice-napi@1.0.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/android-arm@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/darwin-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/darwin-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/darwin-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/darwin-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/darwin-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/darwin-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/android-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/android-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/freebsd-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-arm@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-arm@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ia32@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ia32@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ia32@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ia32@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ia32@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ia32@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/freebsd-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-mips64el@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-mips64el@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-mips64el@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-mips64el@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-mips64el@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-mips64el@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-riscv64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-riscv64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-riscv64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-riscv64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-riscv64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-riscv64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ppc64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ppc64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ppc64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ppc64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ppc64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ppc64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-s390x@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-s390x@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-s390x@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-s390x@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-s390x@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-s390x@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/android-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/android-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/sunos-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/sunos-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/sunos-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/sunos-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-ia32@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-ia32@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-ia32@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-ia32@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/netbsd-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/netbsd-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/netbsd-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/netbsd-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-loong64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-loong64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-loong64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-loong64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-loong64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-loong64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/openbsd-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/openbsd-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/openbsd-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/openbsd-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning "workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-3 > @angular/elements@15.2.10" has incorrect peer dependency "@angular/core@15.2.10".
+warning "workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-syntax-flow@^7.14.5".
+warning "workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-transform-react-jsx@^7.14.9".
+warning "workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > react-dev-utils > fork-ts-checker-webpack-plugin@6.5.3" has unmet peer dependency "typescript@>= 2.7".
+warning "workspace-aggregator-f592b861-7058-4085-8fbc-bbe32c375275 > @liferay/liferay-sample-custom-element-2 > react-scripts > eslint-config-react-app > @typescript-eslint/eslint-plugin > tsutils@3.21.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+error An unexpected error occurred: "ENOSPC: no space left on device, copyfile 'C:\\Users\\Liferay\\AppData\\Local\\Yarn\\Cache\\v4\\npm-esbuild-wasm-0.18.17-d3d8827502c7714212a7b2544ee99132f07189cc\\node_modules\\esbuild-wasm\\esbuild.wasm' -> 'D:\\Reusable\\Learning Material\\cx\\com.liferay.sample.workspace-latest\\node_modules\\esbuild-wasm\\esbuild.wasm'".
+info If you think this is a bug, please open a bug report with the information provided in "D:\\Reusable\\Learning Material\\cx\\com.liferay.sample.workspace-latest\\yarn-error.log".
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+
+> Task :yarnInstall FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':yarnInstall'.
+> Process 'command 'cmd'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 3m 7s
+4 actionable tasks: 3 executed, 1 up-to-date
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>blade deploy
+
+> Task :yarnInstall
+yarn install v1.13.0
+info No lockfile found.
+warning Missing version in workspace at "D:\\Reusable\\Learning Material\\cx\\com.liferay.sample.workspace-latest\\client-extensions\\liferay-sample-etc-frontend-3", ignoring.
+[1/4] Resolving packages...
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > @babel/plugin-proposal-async-generator-functions@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-async-generator-functions instead.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-numeric-separator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-numeric-separator instead.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-private-methods@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-private-methods instead.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-nullish-coalescing-operator@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-nullish-coalescing-operator instead.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > babel-preset-react-app > @babel/plugin-proposal-optional-chaining@7.21.0: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-optional-chaining instead.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > guess-parser > @wessberg/ts-evaluator@0.0.27: this package has been renamed to ts-evaluator. Please install ts-evaluator instead
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > webpack-dev-middleware > memfs@3.6.0: this will be v4
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > webpack-dev-server > webpack-dev-middleware > memfs@3.6.0: this will be v4
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > react-dev-utils > fork-ts-checker-webpack-plugin > memfs@3.6.0: this will be v4
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-expiration@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-cacheable-response@6.6.1: workbox-background-sync@6.6.1
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-expiration > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-cacheable-response > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-background-sync@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-background-sync > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-broadcast-update@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-broadcast-update > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-background-sync@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-navigation-preload@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-navigation-preload > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-cacheable-response@6.6.1: workbox-background-sync@6.6.1
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-expiration@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-precaching@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-routing > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-google-analytics > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-precaching > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-recipes > workbox-strategies@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-strategies > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-streams > workbox-routing@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-range-requests@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-range-requests > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-sw@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-window@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > workbox-window > workbox-core@6.6.1: this package has been deprecated
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > @babel/preset-env > @babel/preset-modules > @babel/plugin-proposal-unicode-property-regex@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-unicode-property-regex instead.
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > @svgr/webpack > @svgr/plugin-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > css-minimizer-webpack-plugin > cssnano > cssnano-preset-default > postcss-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > workbox-webpack-plugin > workbox-build > @rollup/plugin-replace > magic-string > sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+warning workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-3 > @angular-devkit/build-angular > guess-parser > @wessberg/ts-evaluator > jsdom > w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+[2/4] Fetching packages...
+info fsevents@2.3.3: The platform "win32" is incompatible with this module.
+info "fsevents@2.3.3" is an optional dependency and failed compatibility check. Excluding it from installation.
+info nice-napi@1.0.2: The platform "win32" is incompatible with this module.
+info "nice-napi@1.0.2" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/android-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/android-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/freebsd-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/android-arm@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/android-arm@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/darwin-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/darwin-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/darwin-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/darwin-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/freebsd-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/freebsd-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/freebsd-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ia32@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ia32@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ia32@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ia32@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ia32@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ia32@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-arm@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-arm@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-arm@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-arm@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ppc64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ppc64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ppc64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-ppc64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-ppc64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-ppc64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-riscv64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-riscv64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-riscv64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-riscv64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-riscv64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-riscv64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-s390x@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-s390x@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-s390x@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-s390x@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-s390x@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-s390x@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-loong64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-loong64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-loong64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-loong64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-loong64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-loong64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-mips64el@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-mips64el@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-mips64el@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-mips64el@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-mips64el@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-mips64el@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/linux-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/linux-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/linux-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/android-arm64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/android-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/android-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info @esbuild/netbsd-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/netbsd-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/netbsd-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/netbsd-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/darwin-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/darwin-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/darwin-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/sunos-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/sunos-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/sunos-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/sunos-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-arm64@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-arm64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-arm64@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-arm64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/openbsd-x64@0.18.17: The platform "win32" is incompatible with this module.
+info "@esbuild/openbsd-x64@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/openbsd-x64@0.18.20: The platform "win32" is incompatible with this module.
+info "@esbuild/openbsd-x64@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-ia32@0.18.17: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-ia32@0.18.17" is an optional dependency and failed compatibility check. Excluding it from installation.
+info @esbuild/win32-ia32@0.18.20: The CPU architecture "x64" is incompatible with this module.
+info "@esbuild/win32-ia32@0.18.20" is an optional dependency and failed compatibility check. Excluding it from installation.
+[3/4] Linking dependencies...
+warning "workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-3 > @angular/elements@15.2.10" has incorrect peer dependency "@angular/core@15.2.10".
+warning "workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-syntax-flow@^7.14.5".
+warning "workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > eslint-config-react-app > eslint-plugin-flowtype@8.0.3" has unmet peer dependency "@babel/plugin-transform-react-jsx@^7.14.9".
+warning "workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > react-dev-utils > fork-ts-checker-webpack-plugin@6.5.3" has unmet peer dependency "typescript@>= 2.7".
+warning "workspace-aggregator-396b2968-c749-4450-adc2-492cdc43b935 > @liferay/liferay-sample-custom-element-2 > react-scripts > eslint-config-react-app > @typescript-eslint/eslint-plugin > tsutils@3.21.0" has unmet peer dependency "typescript@>=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta".
+[4/4] Building fresh packages...
+success Saved lockfile.
+Done in 180.58s.
+
+> Task :client-extensions:liferay-sample-theme-css-1:buildCSS
+Using Dart Sass compiler because other sass compilers are no longer supported
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Unable to generate RTL version for /css/clay.scss, null
+Parsed /css/clay.scss in 9628ms
+Parsed /css/main.scss in 2052ms
+Parsed /css/sassy-inputs/demo.scss in 165ms
+Parsed /css/sassy-inputs/sass/main.scss in 118ms
+
+> Task :client-extensions:liferay-sample-theme-css-1:deploy
+Files of project ':client-extensions:liferay-sample-theme-css-1' deployed to D:\Reusable\Liferay DXP 7.4\U90\liferay-dxp-tomcat-7.4.13.u90-20230816105706384\liferay-dxp-7.4.13.u90\osgi\client-extensions
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5m 39s
+13 actionable tasks: 12 executed, 1 up-to-date
+Gradle "deploy" task succeeded.
+Updates available to the installed version: 4.1.2.202212260534
+-> (Snapshot) Optional[5.0.1.202310250845]       Run `blade update` to install
+-> (Release) Optional[5.0.0]                     Run `blade update -r` to install
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>dir
+ Volume in drive D is New Volume
+ Volume Serial Number is A6F4-84D0
+
+ Directory of D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1
+
+25-10-2023  18:37    <DIR>          .
+24-10-2023  22:10    <DIR>          ..
+25-10-2023  18:37    <DIR>          build
+24-10-2023  22:10               201 client-extension.yaml
+25-10-2023  18:37    <DIR>          dist
+24-10-2023  22:10               197 package.json
+24-10-2023  22:10    <DIR>          src
+               2 File(s)            398 bytes
+               5 Dir(s)     824,107,008 bytes free
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>lcp deploy --extension dist\liferay-sample-theme-css-1.zip
+You need to log in on liferay.cloud before using "lcp deploy".
+
+? Open your browser and authenticate? Yes
+✔ Authentication completed [2/2]
+Please select a project from the list below:
+#      Project                 Status
+1      lctunionbank-prd        Ready
+2      lctlxcifqm-extprd       Ready
+3      lctunionbank            Getting ready…
+4      lctunionbank-infra      Ready
+5      lctlxcifqm-extuat       Ready
+6      lctunionbank-uat        Ready
+
+? Type a number (#) or project name: 2
+
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>lcp deploy --extension dist\liferay-sample-theme-css-1.zip
+Please select a project from the list below:
+#      Project                 Status
+1      lctunionbank-prd        Ready
+2      lctlxcifqm-extprd       Ready
+3      lctunionbank            Getting ready…
+4      lctunionbank-infra      Ready
+5      lctlxcifqm-extuat       Ready
+6      lctunionbank-uat        Ready
+
+? Type a number (#) or project name: 2
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>blade deploy
+
+> Task :yarnInstall
+yarn install v1.13.0
+warning Missing version in workspace at "D:\\Reusable\\Learning Material\\cx\\com.liferay.sample.workspace-latest\\client-extensions\\liferay-sample-etc-frontend-3", ignoring.
+[1/4] Resolving packages...
+success Already up-to-date.
+Done in 2.16s.
+
+> Task :client-extensions:liferay-sample-theme-css-1:buildCSS
+Using Dart Sass compiler because other sass compilers are no longer supported
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Unable to generate RTL version for /css/clay.scss, null
+Parsed /css/clay.scss in 10543ms
+Parsed /css/main.scss in 2559ms
+Parsed /css/sassy-inputs/demo.scss in 141ms
+Parsed /css/sassy-inputs/sass/main.scss in 114ms
+
+> Task :client-extensions:liferay-sample-theme-css-1:deploy
+Files of project ':client-extensions:liferay-sample-theme-css-1' deployed to D:\Reusable\Liferay DXP 7.4\U90\liferay-dxp-tomcat-7.4.13.u90-20230816105706384\liferay-dxp-7.4.13.u90\osgi\client-extensions
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.3.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 27s
+13 actionable tasks: 12 executed, 1 up-to-date
+Gradle "deploy" task succeeded.
+
+D:\Reusable\Learning Material\cx\com.liferay.sample.workspace-latest\client-extensions\liferay-sample-theme-css-1>
